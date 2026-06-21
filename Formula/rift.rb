@@ -1,17 +1,17 @@
 class Rift < Formula
   desc "Manage and run proxy connections from the command line"
   homepage "https://github.com/larryzhao/rift"
-  version "0.6.1"
+  version "0.6.2"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/larryzhao/rift/releases/download/v0.6.1/rift-0.6.1-darwin-arm64.tar.gz"
-      sha256 "9b25288642e3537e0c296f6dcf9e4a9865bf67296ab5e5234bbd447676406b10"
+      url "https://github.com/larryzhao/rift/releases/download/v0.6.2/rift-0.6.2-darwin-arm64.tar.gz"
+      sha256 "bb8e9b221625b0d659e9a8cb815a7527bdf7b9c6d3dab9a9dd2d60dae7366c7c"
     end
     on_intel do
-      url "https://github.com/larryzhao/rift/releases/download/v0.6.1/rift-0.6.1-darwin-amd64.tar.gz"
-      sha256 "51a859b18ffee6ef9d4d99cd461a8da973303e87526571a7727d4705a9e98672"
+      url "https://github.com/larryzhao/rift/releases/download/v0.6.2/rift-0.6.2-darwin-amd64.tar.gz"
+      sha256 "341154fe1d8220e2fb7ec9a630254fb52bda6badfe61fc0cbe9de57a91d9fb66"
     end
   end
 
